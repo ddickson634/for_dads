@@ -2,7 +2,6 @@
 
 <%= form_for @post do |f| %>
 
-<h1>Create Post</h1>
 <% if @post.errors.any? %>
     <div id="errors">
         <h2><%= pluralize(@post.errors.count, "error") %> stopped this post from saving</h2>
