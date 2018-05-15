@@ -13,3 +13,34 @@
  *= require_tree .
  *= require_self
  */
+
+@import "materialize/components/color-variables";
+$primary-color: color("blue", "lighten-2") !default;
+$secondary-color: color("yellow", "base") !default;
+@import 'materialize';
+
+#post_content{
+    margin: auto;
+    max-width: 75%;
+}
+
+img{
+    max-width: 50%;
+    min-width: 300px;
+}
+
+#profile_image{
+    text-align: center;
+}
+
+h5{
+    margin: auto;
+    padding: 5px 0px 5px 15px;
+    background-color: whitesmoke;
+    text-align: center;
+    width: 50%;
+    border-bottom-left-radius: 50%;
+    border-bottom-right-radius: 50%;
+    font-weight: 900;
+    
+}
